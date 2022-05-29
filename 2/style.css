@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.orange {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.blue-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-box {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
